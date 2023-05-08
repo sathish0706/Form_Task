@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+.text-feild {
+  width: 500px;
+  height: 42px;
+}
+.button {
+  width: 500px;
+  height: 42px;
+}
+span {
+  color: red;
+}
