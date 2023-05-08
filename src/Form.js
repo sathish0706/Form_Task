@@ -14,9 +14,8 @@ export const formValidationSchema = yup.object({
       "Name can only contain Latin letters."
     ),
   email: yup.string().required("Please fill movie url"),
-  //   phone: yup.number().required("Please fill phone"),
-  // .min(0, "0 - 10 required")
-  // .max(5, "Should not exceed 10"),
+   phone: yup.number().required("Please fill phone number")
+  .max(10, "Should not exceed 10"),
   password: yup
     .string()
     .required("Please fill password")
